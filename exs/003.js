@@ -1,4 +1,4 @@
-// Escolha um número e diga seu sucessor e seu antecessor
+// ex003: Escolha um número e diga seu sucessor e seu antecessor
 let numero = 54
 let sucessor = numero + 1
 let antecessor = numero - 1
