@@ -14,3 +14,6 @@
 
 [ex007: Sabendo que você possui duas camisas, tem um frete de 12 reais e o valor total da compra é de 172 reais, descubra qual é o preço do valor da camisa por unidade](exs/ex007.js)
 
+[ex008: Crie uma função que receba como parâmetro preco e aumento e retorne o preço final com a porcentagem do aumento incluído.](exs/ex008.js)
+
+[ex009: Crie uma função que receba como parâmetro preco e desconto e retorne o preço final com o desconto sobre o preo incluído.](exs/ex009.js)
