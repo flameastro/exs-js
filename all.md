@@ -17,3 +17,9 @@
 [ex008: Crie uma função que receba como parâmetro preco e aumento e retorne o preço final com a porcentagem do aumento incluído.](exs/ex008.js)
 
 [ex009: Crie uma função que receba como parâmetro preco e desconto e retorne o preço final com o desconto sobre o preo incluído.](exs/ex009.js)
+
+[ex010: Crie dois arrays (amigosDoFelipe e amigosDoJorge) e diga quais nomes estão em comum. Coloque numa lista e imprima os nomes](exs/ex010.js)
+
+[ex011: Crie uma função `fatorial(n)` que retorna o fatorial de `n` (iterativo).](exs/ex011.js)
+
+[ex012: Converta uma string para maiúsculas e minúsculas.](exs/ex012.js)
