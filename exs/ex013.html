@@ -1,0 +1,48 @@
+<script>
+    // ex013: Crie um programa em que o usuário tenta adivinhar um número entre 1 a 1000 gerado pelo computador, com inúmeras tentativas de chutes. Adicione também as seguintes classificações:
+    // Chute              Classificação
+    // chute > 50         Chute muito alto
+    // chute > 25         Chute alto
+    // chute > 10         Chutou perto, chute um número um pouco mais baixo
+    // chute > 0          Chutou muito perto, chute um número um pouco mais baixo
+    // chute < 50         Chute muito baixo
+    // chute < 25         Chute baixo
+    // chute < 10         Chutou perto, chute um número um pouco mais alto
+    // chute < 0          Chutou muito perto, chute um número um pouco mais alto
+    function adivinhaNumero() {
+        numero = Math.floor(Math.random() * 1000 ) + 1;
+
+        while (true) {
+            chute = parseInt(prompt("Insira um número"));
+            while (chute < 1 || chute > 1000) {
+                console.log("Certifique-se de inserir um valor adequado.");
+                chute = parseInt(prompt("Insira um número"));
+            }
+
+            console.log(`Você chutou ${chute}`);
+
+            if (chute - 50 > numero) {
+                console.log("Chute muito alto");
+            } else if (chute - 25 > numero) {
+                console.log("Chute Alto");
+            } else if (chute - 10 > numero) {
+                console.log("Chutou perto, chute um número um pouco mais baixo");
+            } else if (chute > numero) {
+                console.log("Chutou muito perto, chute um número um poquinho mais baixo");
+            } else if (chute + 50 < numero) {
+                console.log("Chute muito Baixo");
+            } else if (chute + 25 < numero) {
+                console.log("Chute baixo");
+            } else if (chute + 10 < numero) {
+                console.log("Chutou perto, chute um número um pouco mais alto");
+            } else if (chute < numero) {
+                console.log("Chutou muito perto, chute um número um pouco mais alto");
+            } else {
+                console.log("Acertou!!!");
+                break;
+            }
+        }
+    }
+
+    adivinhaNumero();
+</script>
